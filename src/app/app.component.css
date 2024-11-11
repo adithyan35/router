@@ -1,0 +1,11 @@
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: row;
+}
+.side,
+.navbar-nav{
+color:#fff;
+    justify-self: space-around;
+}

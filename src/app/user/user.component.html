@@ -1,0 +1,30 @@
+<!-- <p>user works!</p>
+
+
+<div class="route">
+    <button (click)="movetouser1()">Go to user1</button>
+</div>
+
+<a [routerLink]= "['/user', 1,'aadhi' ]" [queryParams]="{page:1, search :'aadhi'}" [fragment]="'load'">details of adhi</a> -->
+
+
+
+<ul class="nav flex-column">
+    <li class="nav-item">
+      <a [routerLink]= "['/user', 1,'aadhi' ]"[queryParams]="{page:1, search :'aadhi'}" [fragment]="'load'" class="nav-link">get details Aadhi</a>
+    </li>
+  
+    <li class="nav-item">
+      <a [routerLink]= "['/user', 2,'rithvik' ]" [queryParams]="{page:2, search :'rithvik'}" [fragment]="'load'" class="nav-link">get details Rithvik</a>
+    </li>
+  
+    <li class="nav-item">
+      <a [routerLink]= "['/user', 3,'priya' ]" [queryParams]="{page:3, search :'priya'}" [fragment]="'load'" class="nav-link">get details Priya</a>
+    </li>
+  
+  </ul>
+
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
